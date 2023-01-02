@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSITION</title>
+    <style>
+
+.container{
+    height: auto;
+    position: relative;
+    width: 800px;
+}
+.container img{
+    width: 100%;
+    display: block;
+}
+.one{ 
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 20px;
+}
+.two{ 
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+}
+.three{ 
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+.four{ 
+    position: absolute;
+    left: 5px;
+    bottom: 0px;
+    font-size: 20px;
+}
+.five{ 
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+    font-size: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <DIV class="container">
+        <img src="advance html/wallpaper.jpg" alt="Cinque Terre" width="1000" height="300">
+      
+        <div class="one">Top Left</div>
+        <div class="two">Top right</div>
+        <div class="three">center</div>
+        <div class="four">bottom Left</div>
+        <div class="five">bottom right</div>
+        
+    </DIV>
+</body>
+</html>
